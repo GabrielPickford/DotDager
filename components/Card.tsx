@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
+import Work from '../app/work/page';
 
 type CardProps = {
   image: string;
@@ -9,7 +11,7 @@ type CardProps = {
 
 const Card = ({ image, title, text }: CardProps) => {
     return (
-        <div className='startup-card'>
+        <Link href="/work" className='startup-card'>
             <Image
                 src={image}
                 alt="DotDager"
@@ -19,8 +21,8 @@ const Card = ({ image, title, text }: CardProps) => {
             />
             <h1 className='text-30-semibold'>{title}</h1>
             <p className='text-20-medium'>{text}</p>
-        </div>
+        </Link>
     )
 }
-
+//href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
 export default Card
