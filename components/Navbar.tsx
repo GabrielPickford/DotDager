@@ -9,15 +9,15 @@ const Navbar = () => {
                 <Link href="/">
                     <Image src="/logo.png" alt="logo" width={144} height={30} />
                 </Link>
-                <nav className='flex items-center gap-5 text-black'>
-                    <Link href="/work">
+                <nav className='flex items-center gap-12 text-black'>
+                    {/* <Link href="/work">
                         <span>Sobre mí</span>
                     </Link>
                     <Link href="/work">
                         <span>Mi trabajo</span>
-                    </Link>
+                    </Link> */}
                     <a href="https://gabrieltambare.vercel.app/" target='blank'>
-                        <span>Autor</span>
+                        <span className='text-20-medium'>Gabriel Tambare</span>
                     </a>
                 </nav>
             </nav>

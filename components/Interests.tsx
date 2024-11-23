@@ -11,32 +11,32 @@ const Interests = () => {
         <Card
           image="/assets/programacion.jpg"
           title="Programador"
-          text="Este es el texto descriptivo."
+          text="Transformando ideas en código, con pasión y precisión."
         />
         <Card
           image="/assets/guitarra.jpg"
           title="Músico"
-          text="Este es el texto descriptivo."
+          text="Sí, me sé la de lamento boliviano."
         />
         <Card
           image="/assets/pepinos.jpg"
           title="Comedor de pepinos"
-          text="Este es el texto descriptivo."
+          text="Servicios a domicilio, sólo interesados serios."
         />
         <Card
           image="/assets/filosofia.jpg"
           title="Filósofo"
-          text="Este es el texto descriptivo."
+          text="Te doy crisis existenciales y más."
         />
         <Card
           image="/assets/streaming.jpg"
           title="Streamer"
-          text="Este es el texto descriptivo."
+          text="De vez en cuando."
         />
         <Card
           image="/assets/gatos.jpg"
           title="Cuidador de gatos"
-          text="Este es el texto descriptivo."
+          text="Soy el especialista en acariciar gatos, aunque ellos decidan cuándo."
         />
       </section>
     </div>
