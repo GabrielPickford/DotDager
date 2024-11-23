@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-import Work from '../app/work/page';
 
 type CardProps = {
   image: string;

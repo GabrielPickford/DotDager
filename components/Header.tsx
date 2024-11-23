@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { FaInstagram } from "react-icons/fa";
 import { PiYoutubeLogo } from "react-icons/pi";
 import { PiTwitchLogo } from "react-icons/pi";
-import Link from 'next/link';
 
 const Header = () => {
     return (
