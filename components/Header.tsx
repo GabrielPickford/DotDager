@@ -18,13 +18,13 @@ const Header = () => {
                 <h1 className="heading text-center">Mariano Dot Dager<br/></h1>
                 <p className="sub-heading !max-w-3xl text-center">Programador, streamer, filósofo,<br/> guitarrero, gatofílico y amante de los pepinos</p>
                 <div className='flex p-10 gap-10'>
-                    <a href={"https://www.instagram.com/p/CSeYforAqm4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="} target="_blank">
+                    <a href={"https://www.instagram.com/dager.32/"} target="_blank">
                     <FaInstagram size='2.5rem' />
                     </a>
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target='blank'>
+                    <a href="https://www.youtube.com/@DotDager" target='blank'>
                     <PiYoutubeLogo size='2.5rem'  />
                     </a>
-                    <a href='https://www.twitch.tv/mur45ak1/clip/PrettiestDelightfulBearPermaSmug-4XGFnLgLa1gFMjkS'  target='blank'>
+                    <a href='https://www.twitch.tv/dagerxiv'  target='blank'>
                     <PiTwitchLogo size='2.5rem' />
                     </a>
                     
